@@ -21,7 +21,7 @@ Database : MySQL
 1. List User
 ```http
 - Endpoint: GET /api/users
-
+```
 Query Params (opsional):
 search -> filter berdasarkan nama/email
 
@@ -78,7 +78,7 @@ Contoh Response :
 2. Add User :
 ```http
 - Endpoint: POST /api/users
-
+```
 Contoh Response :
 ```json
 {
@@ -97,7 +97,7 @@ Contoh Response :
 3. Update User
 ```http
 - Endpoint: PUT /api/users/{id}
-
+```
 Contoh Response : 
 ```json
 {
@@ -117,7 +117,7 @@ Contoh Response :
 4. Delete User : 
 ```http
 - Endpoint: DELETE /api/users/{id}
-
+```
 Contoh Response :
 ```json
 {
