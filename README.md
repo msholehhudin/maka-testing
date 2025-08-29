@@ -20,14 +20,14 @@ Database : MySQL
 
 1. List User
 ```http
-- Endpoint: GET /api/users
+Endpoint: GET /api/users
 ```
 Query Params (opsional):
-search -> filter berdasarkan nama/email
+search -> filter berdasarkan nama/address
 
 Contoh Request:
 ```http
-- GET /api/users?search=sholeh
+GET /api/users?search=sholeh
 ```
 Contoh Response :
 
@@ -77,7 +77,7 @@ Contoh Response :
 
 2. Add User :
 ```http
-- Endpoint: POST /api/users
+Endpoint: POST /api/users
 ```
 Contoh Response :
 ```json
@@ -96,7 +96,7 @@ Contoh Response :
 
 3. Update User
 ```http
-- Endpoint: PUT /api/users/{id}
+Endpoint: PUT /api/users/{id}
 ```
 Contoh Response : 
 ```json
@@ -116,7 +116,7 @@ Contoh Response :
 
 4. Delete User : 
 ```http
-- Endpoint: DELETE /api/users/{id}
+Endpoint: DELETE /api/users/{id}
 ```
 Contoh Response :
 ```json
@@ -126,3 +126,11 @@ Contoh Response :
 ```
 
 Expect deleted user menggunakan softDelete dan isi column deleted_at
+
+## Screenshot
+
+Hasil pengujian API sudah saya dokumentasikan dan tersimpan pada folder:
+
+```
+/screenshots
+```
