@@ -28,7 +28,7 @@ search -> filter berdasarkan nama/email
 Contoh Request:
 ```http
 - GET /api/users?search=sholeh
-
+```
 Contoh Response :
 
 ```json
