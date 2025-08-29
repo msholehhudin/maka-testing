@@ -20,7 +20,6 @@ Database : MySQL
 
 1. List User
    
-Endpoint : 
 ```http
 GET /api/users
 ```
@@ -79,7 +78,6 @@ Contoh Response :
 
 2. Add User :
 
-Endpoint:
 ```http
 POST /api/users
 ```
@@ -99,7 +97,7 @@ Contoh Response :
 ```
 
 3. Update User
-Endpoint :
+
 ```http
 PUT /api/users/{id}
 ```
@@ -120,7 +118,7 @@ Contoh Response :
 ```
 
 4. Delete User :
-Endpoint :
+
 ```http
 DELETE /api/users/{id}
 ```
