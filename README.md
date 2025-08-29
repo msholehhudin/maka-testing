@@ -19,8 +19,10 @@ Database : MySQL
 ## Nomer 3 - CRUD Users
 
 1. List User
+   
+Endpoint : 
 ```http
-Endpoint: GET /api/users
+GET /api/users
 ```
 Query Params (opsional):
 search -> filter berdasarkan nama/address
@@ -76,8 +78,10 @@ Contoh Response :
 ```
 
 2. Add User :
+
+Endpoint:
 ```http
-Endpoint: POST /api/users
+POST /api/users
 ```
 Contoh Response :
 ```json
@@ -95,8 +99,9 @@ Contoh Response :
 ```
 
 3. Update User
+Endpoint :
 ```http
-Endpoint: PUT /api/users/{id}
+PUT /api/users/{id}
 ```
 Contoh Response : 
 ```json
@@ -114,9 +119,10 @@ Contoh Response :
 }
 ```
 
-4. Delete User : 
+4. Delete User :
+Endpoint :
 ```http
-Endpoint: DELETE /api/users/{id}
+DELETE /api/users/{id}
 ```
 Contoh Response :
 ```json
