@@ -4,8 +4,7 @@
 
 Technical Test | 29 Agustus 2025 
 
-Framework : Laravel 10
-Database : MySQL
+Framework : Laravel 10 | Database : MySQL
 
 📡 API Endpoints
 ## Nomer 1 & 2 
